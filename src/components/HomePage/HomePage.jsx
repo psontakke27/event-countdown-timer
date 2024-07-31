@@ -82,7 +82,7 @@ const HomePage = () => {
   return (
     <div className="home-container">
       <h1 className="heading">
-        Countdown <span className="highlight">Timer</span>
+        Event-Countdown <span className="highlight">Timer</span>
       </h1>
       <InputForm
         isCountDownActive={isCountDownActive}

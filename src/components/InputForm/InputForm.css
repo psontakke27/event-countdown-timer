@@ -14,6 +14,43 @@
     margin: 10px 0;
     width: 80%;
     max-width: 300px;
+    animation: borderAnimation 5s infinite;
+
+  }
+  @keyframes borderAnimation {
+    0% {
+      border-color: white;
+    }
+    10% {
+      border-color: #aea523; /* Change to your desired color */
+    }
+    20% {
+      border-color: #46ae23; /* Change to your desired color */
+    }
+    30% {
+      border-color: #2387ae; /* Change to your desired color */
+    }
+    40% {
+      border-color: #2325ae; /* Change to your desired color */
+    }
+    50% {
+      border-color: #a723ae; /* Change to your desired color */
+    }
+    60% {
+      border-color: #ae236d; /* Change to your desired color */
+    }
+    70% {
+      border-color: #ae2323; /* Change to your desired color */
+    }
+    80% {
+      border-color: #0b0d43; /* Change to your desired color */
+    }
+    90% {
+      border-color: #121505; /* Change to your desired color */
+    }
+    100% {
+      border-color: white;
+    }
   }
   
   .button {
@@ -25,6 +62,8 @@
     margin: 10px 5px;
     cursor: pointer;
     transition: all 0.3s ease;
+    animation: borderAnimation 5s infinite;
+
   }
   
   .button:hover {

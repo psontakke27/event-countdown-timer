@@ -4,12 +4,32 @@
     justify-content: center;
     align-items: center;
   }
+
+  @keyframes color-change {
+    0% {
+      color: #a7790d;
+    }
+    25% {
+      color: #df27a5;
+    }
+    50% {
+      color: #115675;
+    }
+    75% {
+      color: #749a22;
+    }
+    100% {
+      color: #753692;
+    }
+  }
   
   .heading {
-    font-size: 45px;
+    font-size: 50px;
   }
   .highlight {
-    color: #ae00ff;
+
+    animation: color-change 5s infinite;
+
     font-weight: bold;
   }
   

@@ -9,8 +9,8 @@
   .countdown-box {
     background: linear-gradient(
       to bottom left,
-      rgb(1, 238, 255),
-      rgb(255, 0, 255)
+      rgb(116, 97, 195),
+      rgb(30, 109, 58)
     );
     box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.1);
     font-size: 50px;
@@ -31,7 +31,7 @@
     color: #a6b1e1;
   }
   .highlight {
-    color: #ae00ff;
+    color: #371347;
     font-weight: bold;
   }
   
